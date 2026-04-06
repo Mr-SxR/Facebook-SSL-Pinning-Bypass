@@ -98,7 +98,7 @@ Download the patched lib from the **Downloads** section above and replace the or
 
 **Replace via ADB:**
 ```bash
-adb push [your-libcoldstart.so-path] /data/data/com.facebook.katana/lib-compressed/libcoldstart.so
+adb push [Patched-libcoldstart.so-Path] /data/data/com.facebook.katana/lib-compressed/libcoldstart.so
 ```
 
 > 💡 **MT Manager** — you can also replace the file directly on your device (Android or emulator) using MT Manager, without needing ADB.
