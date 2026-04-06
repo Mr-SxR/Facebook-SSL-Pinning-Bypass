@@ -29,7 +29,7 @@
 | | |
 |---|---|
 | **Package** | `com.facebook.katana` |
-| **App Version** | `none` |
+| **App Version** | `555.0.0.49.59` |
 | **Architectures** | `ARM64-v8a` · `x86_64` |
 | **Bypass Method** | Binary patch — SSL verification skipped at entry point |
 
@@ -58,7 +58,7 @@
 | | |
 |---|---|
 | 📦 **libcoldstart.so** | [![Download](https://img.shields.io/badge/Download-libcoldstart.so-2d6e00?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mr-SxR/Facebook-SSL-Pinning-Bypass/raw/main/ARM64/libcoldstart.so) |
-| 📱 **Facebook APK** | [![APKMirror](https://img.shields.io/badge/Download-APKMirror-FF6B35?style=for-the-badge&logo=android&logoColor=white)](https://www.apkmirror.com/apk/none) |
+| 📱 **Facebook APK** | [![APKMirror](https://img.shields.io/badge/Download-APKMirror-FF6B35?style=for-the-badge&logo=android&logoColor=white)]([https://www.apkmirror.com/apk/none](https://www.apkmirror.com/apk/facebook-2/facebook/facebook-555-0-0-49-59-release/)) |
 
 ---
 
@@ -67,7 +67,7 @@
 | | |
 |---|---|
 | 📦 **libcoldstart.so** | [![Download](https://img.shields.io/badge/Download-libcoldstart.so-2d6e00?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mr-SxR/Facebook-SSL-Pinning-Bypass/raw/main/x86_64/libcoldstart.so) |
-| 📱 **Facebook APK** | [![APKMirror](https://img.shields.io/badge/Download-APKMirror-FF6B35?style=for-the-badge&logo=android&logoColor=white)](https://www.apkmirror.com/apk/none) |
+| 📱 **Facebook APK** | [![APKMirror](https://img.shields.io/badge/Download-APKMirror-FF6B35?style=for-the-badge&logo=android&logoColor=white)]([https://www.apkmirror.com/apk/none](https://www.apkmirror.com/apk/facebook-2/facebook/facebook-555-0-0-49-59-release/)) |
 
 ---
 
