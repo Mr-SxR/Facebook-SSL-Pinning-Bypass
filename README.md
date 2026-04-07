@@ -8,7 +8,7 @@
 
 <br/>
 
-![Arch](https://img.shields.io/badge/Arch-ARM64%20%7C%20x86__64-FF6B35?style=for-the-badge&logo=arm&logoColor=white)
+![Arch](https://img.shields.io/badge/Arch-ARM64%20%7C%20x86%20%7C%20x86__64-FF6B35?style=for-the-badge&logo=arm&logoColor=white)
 ![Root](https://img.shields.io/badge/Root-Required-DC143C?style=for-the-badge&logo=android&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
@@ -30,7 +30,7 @@
 |---|---|
 | **Package** | `com.facebook.katana` |
 | **App Version** | `555.0.0.49.59` |
-| **Architectures** | `ARM64-v8a` · `x86_64` |
+| **Architectures** | `ARM64-v8a` · `x86_64` · `x86` |
 | **Bypass Method** | Binary patch — SSL verification skipped at entry point |
 
 > 💡 Lib only works with the exact Facebook version listed above.
@@ -72,6 +72,17 @@
 | 📱 **Facebook APK** | [![APKMirror](https://img.shields.io/badge/Download%20APK-APKMirror-FF6B35?style=for-the-badge&logo=android&logoColor=white)](https://www.apkmirror.com/apk/facebook-2/facebook/facebook-555-0-0-49-59-release/) |
 
 > 💡 Pick variant: `x86_64` · `nodpi` · APK type (not Bundle)
+
+---
+
+### x86 — Android Emulators
+
+| | |
+|---|---|
+| 📦 **libcoldstart.so** | [![Download](https://img.shields.io/badge/Download-libcoldstart.so-2d6e00?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mr-SxR/Facebook-SSL-Pinning-Bypass/raw/main/x86/libcoldstart.so) |
+| 📱 **Facebook APK** | [![APKMirror](https://img.shields.io/badge/Download%20APK-APKMirror-FF6B35?style=for-the-badge&logo=android&logoColor=white)](https://www.apkmirror.com/apk/facebook-2/facebook/facebook-555-0-0-49-59-release/) |
+
+> 💡 Pick variant: `x86` · `nodpi` · APK type (not Bundle)
 
 ---
 
