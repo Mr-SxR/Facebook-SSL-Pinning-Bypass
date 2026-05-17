@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="assets/fbssl_banner.jpg" alt="Facebook SSL Unpinning" width="100%"/>
+<img src="assets/fbssl_banner.jpg" alt="Facebook SSL Pinning Bypass - libcoldstart.so patch for Android" width="100%"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=76e033&center=true&vCenter=true&width=750&lines=Facebook+SSL+Pinning+Bypass+%7C+Mr-SxR;libcoldstart.so+Patch+%7C+ARM64+%26+x86_64" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=76e033&center=true&vCenter=true&width=750&lines=Facebook+SSL+Pinning+Bypass+%7C+Mr-SxR;libcoldstart.so+Patch+%7C+ARM64+%26+x86_64" alt="Facebook SSL Pinning Bypass | Mr-SxR" />
 
 <br/>
 
@@ -18,9 +18,9 @@
 
 ## 📌 About
 
-**Facebook SSL Pinning Bypass** is a security research repository by **[Mr-SxR](https://github.com/Mr-SxR)** — it provides pre-patched `libcoldstart.so` native libraries for the official Facebook Android application, enabling HTTPS traffic interception for educational analysis.
+**Facebook SSL Pinning Bypass** is a security research repository by **[Mr-SxR](https://github.com/Mr-SxR)**. It provides pre-patched `libcoldstart.so` native libraries for the official Facebook Android application, enabling HTTPS traffic interception for educational analysis.
 
-> Built and maintained by **Masudur Rahman Sifat** — a self-taught reverse engineer & Python developer from Bangladesh, operating under the **Mr-SxR** brand *(Speciality & Reliability)*.
+> Built and maintained by **Masudur Rahman Sifat**, a self-taught reverse engineer & Python developer from Bangladesh, operating under the **Mr-SxR** brand *(Speciality & Reliability)*.
 
 ---
 
@@ -31,7 +31,7 @@
 | **Package** | `com.facebook.katana` |
 | **App Version** | `555.0.0.49.59` |
 | **Architectures** | `ARM64-v8a` · `x86_64` · `x86` |
-| **Bypass Method** | Binary patch — SSL verification skipped at entry point |
+| **Bypass Method** | Binary patch, SSL verification skipped at entry point |
 
 > 💡 Lib only works with the exact Facebook version listed above.
 
@@ -53,7 +53,7 @@
 
 ---
 
-### ARM64 — Physical Android Devices
+### ARM64 (Physical Devices)
 
 | | |
 |---|---|
@@ -64,7 +64,7 @@
 
 ---
 
-### x86_64 — Android Emulators
+### x86_64 (Emulators)
 
 | | |
 |---|---|
@@ -75,7 +75,7 @@
 
 ---
 
-### x86 — Android Emulators
+### x86 (Emulators)
 
 | | |
 |---|---|
@@ -83,6 +83,8 @@
 | 📱 **Facebook APK** | [![APKMirror](https://img.shields.io/badge/Download%20APK-APKMirror-FF6B35?style=for-the-badge&logo=android&logoColor=white)](https://www.apkmirror.com/apk/facebook-2/facebook/facebook-555-0-0-49-59-release/) |
 
 > 💡 Pick variant: `x86` · `nodpi` · APK type (not Bundle)
+
+> 💡 Recommended emulators: **LDPlayer** and **NoxPlayer**. Others also work as long as root is enabled.
 
 ---
 
@@ -97,7 +99,7 @@
 
 ## 🔧 Setup Process
 
-### Step 1 — Replace libcoldstart.so
+### Step 1: Replace libcoldstart.so
 
 Download the patched lib from the **Downloads** section above and replace the original at:
 
@@ -105,26 +107,26 @@ Download the patched lib from the **Downloads** section above and replace the or
 /data/data/com.facebook.katana/lib-compressed/libcoldstart.so
 ```
 
-**Backup (optional):** You can backup the original before replacing — entirely up to you.
+**Backup (optional):** You can backup the original before replacing. Entirely up to you.
 
 **Replace via ADB:**
 ```bash
 adb push [Patched-libcoldstart.so-Path] /data/data/com.facebook.katana/lib-compressed/libcoldstart.so
 ```
 
-> 💡 **MT Manager** — you can also replace the file directly on your device (Android or emulator) using MT Manager, without needing ADB.
+> 💡 You can also use **MT Manager** to replace the file directly on your device (Android or emulator), without needing ADB.
 
 ---
 
-### Step 2 — CA Certificate Setup *(if needed)*
+### Step 2: CA Certificate Setup *(if needed)*
 
-**Burp Suite / Reqable / HTTP Canary** — whichever you use, make sure the CA certificate is installed on your device.
+**Burp Suite / Reqable / HTTP Canary**, whichever you use, make sure the CA certificate is installed on your device.
 
 > If not installed, install the CA certificate of your respective proxy app.
 
 ---
 
-### Step 3 — Set Proxy & Capture Traffic
+### Step 3: Set Proxy & Capture Traffic
 
 **Using Burp Suite or Reqable (PC-based):**
 
@@ -137,7 +139,7 @@ adb push [Patched-libcoldstart.so-Path] /data/data/com.facebook.katana/lib-compr
 
 **Using HTTP Canary (Mobile-only):**
 
-> No manual WiFi proxy setup needed. HTTP Canary uses Android's built-in VPN system to intercept traffic automatically — just open the app, start capturing, and launch Facebook.
+> No manual WiFi proxy setup needed. HTTP Canary uses Android's built-in VPN system to intercept traffic automatically. Just open the app, start capturing, and launch Facebook.
 
 
 ## ⚠️ Disclaimer
@@ -168,7 +170,7 @@ Reach out on Telegram → [![Telegram](https://img.shields.io/badge/Telegram-@si
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+8801858094178)
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/sifathub)
 
-> Feel free to reach out for any questions, issues, or custom requests — I'm always available.
+> Feel free to reach out for any questions, issues, or custom requests.
 
 ---
 
