@@ -58,7 +58,7 @@
 | | |
 |---|---|
 | 📦 **libcoldstart.so** | [![Download](https://img.shields.io/badge/Download-555555?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mr-SxR/Facebook-SSL-Pinning-Bypass/raw/main/ARM64/libcoldstart.so) |
-| 📱 **Facebook APK** | [![APKMirror](https://img.shields.io/badge/Download-FF6B35?style=for-the-badge&logo=android&logoColor=white)](https://www.apkmirror.com/apk/facebook-2/facebook/facebook-555-0-0-49-59-release/) |
+| 📱 **Facebook APK** | [![APKMirror](https://img.shields.io/badge/Download-FF6B35?style=for-the-badge&logo=android&logoColor=white)](https://www.apkmirror.com/apk/facebook-2/facebook/facebook-555-0-0-49-59-release/facebook-555-0-0-49-59-2-android-apk-download/) |
 
 > 💡 Pick variant: `arm64-v8a` · `nodpi` · APK type (not Bundle)
 
@@ -69,7 +69,7 @@
 | | |
 |---|---|
 | 📦 **libcoldstart.so** | [![Download](https://img.shields.io/badge/Download-555555?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mr-SxR/Facebook-SSL-Pinning-Bypass/raw/main/x86_64/libcoldstart.so) |
-| 📱 **Facebook APK** | [![APKMirror](https://img.shields.io/badge/Download-FF6B35?style=for-the-badge&logo=android&logoColor=white)](https://www.apkmirror.com/apk/facebook-2/facebook/facebook-555-0-0-49-59-release/) |
+| 📱 **Facebook APK** | [![APKMirror](https://img.shields.io/badge/Download-FF6B35?style=for-the-badge&logo=android&logoColor=white)](https://www.apkmirror.com/apk/facebook-2/facebook/facebook-555-0-0-49-59-release/facebook-555-0-0-49-59-29-android-apk-download/) |
 
 > 💡 Pick variant: `x86_64` · `nodpi` · APK type (not Bundle)
 
@@ -80,7 +80,7 @@
 | | |
 |---|---|
 | 📦 **libcoldstart.so** | [![Download](https://img.shields.io/badge/Download-555555?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mr-SxR/Facebook-SSL-Pinning-Bypass/raw/main/x86/libcoldstart.so) |
-| 📱 **Facebook APK** | [![APKMirror](https://img.shields.io/badge/Download-FF6B35?style=for-the-badge&logo=android&logoColor=white)](https://www.apkmirror.com/apk/facebook-2/facebook/facebook-555-0-0-49-59-release/) |
+| 📱 **Facebook APK** | [![APKMirror](https://img.shields.io/badge/Download-FF6B35?style=for-the-badge&logo=android&logoColor=white)](https://www.apkmirror.com/apk/facebook-2/facebook/facebook-555-0-0-49-59-release/facebook-555-0-0-49-59-32-android-apk-download/) |
 
 > 💡 Pick variant: `x86` · `nodpi` · APK type (not Bundle)
 
