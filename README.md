@@ -114,7 +114,7 @@ Download the patched lib from the **Downloads** section above and replace the or
 adb push [Patched-libcoldstart.so-Path] /data/data/com.facebook.katana/lib-compressed/libcoldstart.so
 ```
 
-> 💡 You can also use **MT Manager** to replace the file directly on your device (Android or emulator), without needing ADB.
+> 💡 No PC for ADB? Just install MT Manager on your Android device or emulator to replace the file manually.
 
 ---
 
@@ -159,6 +159,7 @@ Not for malicious use. Use only on devices or accounts you own or have permissio
 - 🔓 **Non-rooted device SSL bypass APK** — patched full APK, no root needed
 - 🆕 **Latest version bypass** — updated patch for the newest Facebook release
 - 📱 **Other apps** — SSL bypass for other Android applications
+- ⚙️ **Custom Python projects**: automation scripts, Telegram bots, web scrapers, and more
 
 Reach out on Telegram → [![Telegram](https://img.shields.io/badge/Telegram-@sifathub-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/sifathub)
 
